@@ -1,27 +1,25 @@
-# Kubernetes tools for EKS
+# Why fork from from apline/k8s
 
-docker build for AWS EKS, it can be used as normal kubectl tool as well
+* The need for and updated kubectl version
+* No need for AWS tools
+
+# Kubernetes tools
+
+docker build for kubectl and helm
 
 ### Installed tools
 
-- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) (eks versions: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html)
-- [helm](https://github.com/helm/helm) (latest release: https://github.com/helm/helm/releases/latest)
-- [aws-iam-authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator) (latest version when run the build)
-- [eksctl](https://github.com/weaveworks/eksctl) (latest version when run the build)
-- [awscli](https://github.com/aws/aws-cli) (latest version when run the build)
-- General tools, such as bash, curl
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
+- [helm](https://github.com/helm/helm)
 
 ### Github Repo
 
-https://github.com/alpine-docker/k8s
+https://github.com/joshendriks/k8s
 
-### Daily Travis CI build logs
-
-https://travis-ci.org/alpine-docker/k8s
 
 ### Docker image tags
 
-https://hub.docker.com/r/alpine/k8s/tags/
+https://hub.docker.com/repository/docker/joshendriks/alpine-k8s/tags
 
 # Why we need it
 
