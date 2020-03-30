@@ -2,6 +2,7 @@
 
 * The need for and updated kubectl version
 * No need for AWS tools
+* The need for git
 
 # Kubernetes tools
 
@@ -11,6 +12,7 @@ docker build for kubectl and helm
 
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
 - [helm](https://github.com/helm/helm)
+- git client
 
 ### Github Repo
 

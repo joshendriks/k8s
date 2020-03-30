@@ -16,6 +16,7 @@ RUN apk add --update --no-cache curl ca-certificates bash && \
     chmod +x /usr/bin/helm && \
     rm -rf linux-amd64 && \
     apk del curl && \
+    apk add --no-cache git && \
     rm -f /var/cache/apk/*
 
 # Install kubectl
